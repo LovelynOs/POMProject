@@ -24,6 +24,8 @@ public class LoginDemoSteps_PF {
     public void browser_is_open() {
         System.out.println("===I am inside LoginDemoSteps_PF class ===");
         System.out.println("Inside Steps _ browser is open");
+        System.out.println("My first cloned project");
+        System.out.println("My 2nd cloned project");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
